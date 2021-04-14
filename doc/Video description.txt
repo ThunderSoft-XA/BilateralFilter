@@ -1,0 +1,9 @@
+This video description:
+Hello everyone, today I will show the results of an image processing algorithm demo. This demo will be based on a bilateral filter model developed by Qualcomm adreno GPU SDK. This demo's hardware is based on the C865 development kit device of Qualcomm platform. The development process is developed using OpenGL ES. Image filtering model, and then call the interface and framework provided by Qualcomm adreno GPU SDK to implement an Android native application to display the effect of bilateral filtering model on image processing.
+
+Let's demonstrate the effect of the APP. First click on the APP. Now you can see that this is a picture of a beautiful woman with many spots on the face. The spots can be removed through bilateral filtering and noise reduction. This achieves a beauty effect, and then you can see the screen The 4 corners are based on Qualcomm adreno GPU SDK to realize the display of logo, name fps and other information.
+In the next step, we will show the use of the Snapdragon analysis tool, which can analyze the performance of the CPU and GPU of the demo. First, run SnapdragonProfiler, then connect the device, click Realtime1, select the package name, and select the CPU usage rate, GPU usage rate, and now the display is displayed. It is the usage of CPU and GPU.
+
+Finally, we use the snapshot function, click New snapshot capture, select the package name, click "take snapshot", you can see the captured picture of a certain frame is displayed in the middle of the screen, and then you can see the drawing process and some parameters to view , Can be used for development and debugging.
+
+That's all for today's demo.
